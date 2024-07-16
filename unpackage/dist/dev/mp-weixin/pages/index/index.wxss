@@ -1,0 +1,68 @@
+/* 水平间距 */
+/* 水平间距 */
+.main.data-v-1cf27b2a {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background: white;
+}
+.main__index.data-v-1cf27b2a {
+  height: 35vh;
+  width: 100%;
+  background: url("https://image.meiye.art/pic_6XovqF-O0ORNQMteUdL_V?imageMogr2/thumbnail/560x/interlace/1");
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main__index-stats.data-v-1cf27b2a {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+}
+.main__index-stats-value.data-v-1cf27b2a {
+  font-size: 106rpx;
+  color: white;
+}
+.main__index-stats-feels-like.data-v-1cf27b2a {
+  font-size: 20rpx;
+  color: white;
+}
+.main__index-info.data-v-1cf27b2a {
+  padding: 10px;
+  font-size: 14px;
+  color: white;
+}
+.main__future.data-v-1cf27b2a {
+  width: 100%;
+  background: white;
+  border-top-right-radius: 20rpx;
+  border-top-left-radius: 20rpx;
+  flex: 1;
+  position: relative;
+  bottom: 50rpx;
+  padding: 32rpx;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 32rpx;
+  font-size: 24rpx;
+}
+.main__future-item.data-v-1cf27b2a {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 2rpx solid #FAFAFA;
+  padding: 5rpx;
+}
+.main__future-item-icon.data-v-1cf27b2a {
+  width: 50rpx;
+  height: 50rpx;
+}

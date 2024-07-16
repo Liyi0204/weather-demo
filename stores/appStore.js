@@ -28,6 +28,9 @@ export const useAppStore = defineStore('app', () => {
 	})
 
 	const initAppWaather = async () => {
+		uni.showLoading({
+			title: '初始化位置信息'
+		});
 		// 获取当前位置
 		const location = await getLocation();
 
@@ -54,6 +57,8 @@ export const useAppStore = defineStore('app', () => {
 		};
 
 		Object.assign(weatherInfo, info);
+		
+		uni.hideLoading()
 	}
 
 	return {

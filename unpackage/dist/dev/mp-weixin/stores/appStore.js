@@ -16,6 +16,9 @@ const useAppStore = common_vendor.defineStore("app", () => {
     forecast: []
   });
   const initAppWaather = async () => {
+    common_vendor.index.showLoading({
+      title: "初始化位置信息"
+    });
     const location = await hooks_useWeater.getLocation();
     const {
       latitude,
@@ -38,6 +41,7 @@ const useAppStore = common_vendor.defineStore("app", () => {
       forecast: utils_index.filterByDate(list)
     };
     Object.assign(weatherInfo, info);
+    common_vendor.index.hideLoading();
   };
   return {
     weatherInfo,
